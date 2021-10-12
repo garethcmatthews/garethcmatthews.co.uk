@@ -46,7 +46,7 @@ class ContactService
         if ($this->config->get('app.env') === "production") {
             $to      = 'MOVETOCONFIG@CONFIG.com';
             $subject = $input['reason'];
-            $message = $input['message'];
+            $message = "FROM: {$input['fullname']}\nMESSAGE:\n{$input['message']}";
             $headers = 'From: ' . $input['email'] . "\r\n" . 'Reply-To: ' . $input['email'];
             mail($to, $subject, $message, $headers);
         }
