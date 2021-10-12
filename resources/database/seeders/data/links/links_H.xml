@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>Hammer.js</title>
+        <image>mobile.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>mobile</tag>
+        </tags>
+        <url>https://hammerjs.github.io</url>
+        <description><![CDATA[Hammer is a open-source library that can recognize gestures made by touch, mouse and pointerEvents. It doesn’t have any dependencies, and it’s small, only 7.34 kB minified + gzipped!]]></description>
+    </link>
+    <link>
+        <title>Howler.js</title>
+        <image>audio.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>audio</tag>
+        </tags>
+        <url>https://howlerjs.com</url>
+        <description><![CDATA[Audio library for the modern web. howler.js makes working with audio in JavaScript easy and reliable across all platforms.]]></description>
+    </link>
+    <link>
+        <title>Hostinguk.net</title>
+        <image>hosting.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>hosting</tag>
+        </tags>
+        <url>https://hostinguk.net</url>
+        <description><![CDATA[Its an evolving story, one focussed on never staying still, delivering technical solutions to human problems, and ultimately always delivering the best quality service to our customers.]]></description>
+    </link>
+</links>

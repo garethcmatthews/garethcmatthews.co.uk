@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<technologies>
+    <technology>
+        <title>Scrum workflow</title>
+        <url>https://www.atlassian.com/agile/scrum</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Kanban workflow</title>
+        <url>https://www.atlassian.com/agile/kanban</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Atlassian JIRA</title>
+        <url>https://www.atlassian.com/software/jira</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Trello</title>
+        <url>https://trello.com/</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+</technologies>

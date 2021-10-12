@@ -1,0 +1,81 @@
+/* Site Side Navigation */
+$navigation-width: 180px;
+$navigation-menu-margin-top: -100px;
+$navigation-transition-time: 0.1s;
+
+nav.sidebar {
+  background-color: black;
+  border-right: 1px solid #ffca28;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.96);
+  color: #fff;
+  height: 100vh;
+  left: 0;
+  margin-left: 0;
+  padding: 0;
+  position: fixed;
+  transition: margin-left $navigation-transition-time;
+  top: 0;
+  width: $navigation-width;
+  z-index: 999;
+}
+
+nav.sidebar.active {
+  margin-left: 0;
+}
+
+nav.sidebar > .header {
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+}
+
+nav.sidebar > ul {
+  list-style: none;
+  margin-top: $navigation-menu-margin-top;
+  padding-left: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+nav.sidebar > ul li a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0.5rem 1rem;
+  padding-right: 24px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav.sidebar > ul a:hover {
+  color: red;
+}
+
+nav.sidebar > ul a.active {
+  color: red;
+}
+
+nav.sidebar > ul li.icons {
+  margin-top: 64px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+nav.sidebar > ul li.icons a {
+  border: none;
+  color: white;
+  display: inline-block;
+  padding: 0 4px;
+}
+
+nav.sidebar > ul li.icons a:hover {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  nav.sidebar {
+    margin-left: 0-$navigation-width;
+  }
+}

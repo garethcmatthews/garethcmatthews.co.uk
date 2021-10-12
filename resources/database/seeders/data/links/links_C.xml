@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>Chart.js</title>
+        <image>charting.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>charting</tag>
+        </tags>
+        <url>https://www.chartjs.org/docs/latest</url>
+        <description><![CDATA[Simple yet flexible JavaScript charting for designers &amp; developers]]></description>
+    </link>
+    <link>
+        <title>CreateJS</title>
+        <image>audio.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>audio</tag>
+        </tags>
+        <url>https://createjs.com</url>
+        <description><![CDATA[A suite of modular libraries and tools which work together or independently to enable rich interactive content on open web technologies via HTML5.]]></description>
+    </link>
+    <link>
+        <title>Code Sniffer</title>
+        <image>codequality.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>codequality</tag>
+            <tag>tools</tag>
+        </tags>
+        <url>https://github.com/squizlabs/PHP_CodeSniffer</url>
+        <description><![CDATA[PHP_CodeSniffer is a set of two PHP scripts; the main phpcs script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second phpcbf script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.]]></description>
+    </link>
+    <link>
+        <title>CSS3gen</title>
+        <image>css.png</image>
+        <tags>
+            <tag>css</tag>
+            <tag>tools</tag>
+        </tags>
+        <url>https://css3gen.com</url>
+        <description><![CDATA[CSS3Gen allows you to easily generate useful snippets of CSS3 and copy them straight into your projects.]]></description>
+    </link>
+    <link>
+        <title>CSS Tricks</title>
+        <image>css.png</image>
+        <tags>
+            <tag>css</tag>
+        </tags>
+        <url>https://css-tricks.com</url>
+        <description><![CDATA[CSS-Tricks is created by Chris and a team of swell people.]]></description>
+    </link>
+</links>

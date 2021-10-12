@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>Apex Charts</title>
+        <image>charting.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>charting</tag>
+        </tags>
+        <url>https://apexcharts.com</url>
+        <description><![CDATA[Modern &amp; Interactive Open-source Charts]]></description>
+    </link>
+    <link>
+        <title>Angular</title>
+        <image>frameworks.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>https://angular.io</url>
+        <description><![CDATA[DEVELOP ACROSS ALL PLATFORMS
+        Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web native mobile and native desktop.]]></description>
+    </link>
+    <link>
+        <title>Awesome PHP</title>
+        <image>php.png</image>
+        <tags>
+            <tag>php</tag>
+        </tags>
+        <url>https://php.libhunt.com</url>
+        <description><![CDATA[A curated list of awesome PHP libraries and resources]]></description>
+    </link>
+    <link>
+        <title>Awesome Tech Stack</title>
+        <image>webdevelopment.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>webtools</tag>
+        </tags>
+        <url>https://awesometechstack.com</url>
+        <description><![CDATA[AwesomeTechStack provides insights into the security, modernity, and performance of any websites technology stack and guidance to improve core web vitals and technology stack awesomeness.]]></description>
+    </link>
+</links>

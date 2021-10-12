@@ -1,0 +1,20 @@
+div.page img.icon {
+  height: 200px;
+  min-width: 350px;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+}
+
+div.row-dark {
+  background-color: #f8f9fa;
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+  div.page img.icon {
+    display: none;
+  }
+}

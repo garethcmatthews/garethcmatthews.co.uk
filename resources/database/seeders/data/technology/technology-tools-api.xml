@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<technologies>
+    <technology>
+        <title>Akamia</title>
+        <url>http://www.akamai.com</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>CoverItLive</title>
+        <url>https://resources.rockcontent.com/SL-2019-CAM-2769-CIL-Sunset-LP.html</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Urban Airship</title>
+        <url>https://www.airship.com</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Opta</title>
+        <url>https://www.statsperform.com/opta</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+</technologies>

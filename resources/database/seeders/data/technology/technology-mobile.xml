@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<technologies>
+    <technology>
+        <title>PhoneGap/Cordova</title>
+        <url>https://cordova.apache.org</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>JQuery Mobile</title>
+        <url>https://jquerymobile.com</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+</technologies>

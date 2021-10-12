@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>Flourish PHP Unframeworks</title>
+        <image>frameworks.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>https://flourishlib.com</url>
+        <description><![CDATA[Flourish provides a strong, base set of PHP classes that run pretty much anywhere, helping you focus on solving more interesting problems.]]></description>
+    </link>
+    <link>
+        <title>Free Code Tools</title>
+        <image>tools.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>webtools</tag>
+        </tags>
+        <url>https://freecodetools.org</url>
+        <description><![CDATA[FreeCodeTools project was created to help you to do stuff faster. Its free and always will be.]]></description>
+    </link>
+    <link>
+        <title>FOSSMINT</title>
+        <image>linux.png</image>
+        <tags>
+            <tag>linux</tag>
+            <tag>news</tag>
+        </tags>
+        <url>https://www.fossmint.com</url>
+        <description><![CDATA[F.O.S.S Mint (Free Open Source Software) is a branched off project from TecMint, a Linux-focused website that was established in 2012.]]></description>
+    </link>
+</links>

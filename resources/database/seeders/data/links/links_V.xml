@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>vimeo psalm</title>
+        <image>codequality.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>codequality</tag>
+        </tags>
+        <url>https://github.com/vimeo/psalm</url>
+        <description><![CDATA[Psalm is a static analysis tool for finding errors in PHP applications.]]></description>
+    </link>
+    <link>
+        <title>Visual Studio Magazine</title>
+        <image>news.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>news</tag>
+        </tags>
+        <url>https://visualstudiomagazine.com</url>
+        <description><![CDATA[Visual Studio news.]]></description>
+    </link>
+    <link>
+        <title>Vuejs</title>
+        <image>frameworks.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>https://vuejs.org</url>
+        <description><![CDATA[The Progressive JavaScript frameworks]]></description>
+    </link>
+    <link>
+        <title>VSCode Laravel Extension Pack</title>
+        <image>tools.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>webtools</tag>
+        </tags>
+        <url>https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack</url>
+        <description><![CDATA[Includes the basic extensions to get started with Laravel development in Visual Studio Code.]]></description>
+    </link>
+</links>

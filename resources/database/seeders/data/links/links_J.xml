@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>Juce</title>
+        <image>audio.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>audio</tag>
+            <tag>cpp</tag>
+        </tags>
+        <url>https://juce.com</url>
+        <description><![CDATA[Deliver music apps for desktop and mobile, with the same code.]]></description>
+    </link>
+</links>

@@ -1,0 +1,36 @@
+img.technology {
+  height: 28px;
+  width: 28px;
+  margin-top:5px;
+}
+
+div.page-header {
+  background-color: #23384e;
+  margin-top: 1px;
+}
+
+ul.technology {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.technology > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+ul.technology > li > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+ul.technology > li > a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+p.skill-level {
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}

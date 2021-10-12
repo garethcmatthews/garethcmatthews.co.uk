@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>OMG! Ubuntu!</title>
+        <image>ubuntu.png</image>
+        <tags>
+            <tag>linux</tag>
+            <tag>ubuntu</tag>
+        </tags>
+        <url>https://www.omgubuntu.co.uk</url>
+        <description><![CDATA[We’re OMG! Ubuntu! — an online news site covering Ubuntu and related activities in the Linux and open-source eco-systems in an approachable and engaging way.]]></description>
+    </link>
+    <link>
+        <title>October CMS</title>
+        <image>cms.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>cms</tag>
+        </tags>
+        <url>https://octobercms.com</url>
+        <description><![CDATA[October CMS The Award-winning CMS Platform. Based on Laravel.]]></description>
+    </link>
+    <link>
+        <title>Open Source C++ libraries</title>
+        <image>cpp.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>cpp</tag>
+        </tags>
+        <url>https://en.cppreference.com/w/cpp/links/libs</url>
+        <description><![CDATA[A list of open source C++ libraries]]></description>
+    </link>
+</links>

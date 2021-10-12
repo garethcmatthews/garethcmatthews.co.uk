@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>Scraperbox</title>
+        <image>tools.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>tools</tag>
+        </tags>
+        <url>https://scraperbox.com</url>
+        <description><![CDATA[Undetectable Web Scraping API. Scrape web pages without getting blocked.]]></description>
+    </link>
+    <link>
+        <title>Smashing Magazine</title>
+        <image>webdevelopment.png</image>
+        <tags>
+            <tag>development</tag>
+            <tag>webnews</tag>
+        </tags>
+        <url>https://www.smashingmagazine.com</url>
+        <description><![CDATA[Founded in September 2006 in Germany, Smashing Magazine delivers reliable, useful, but most importantly practical articles to web designers and developers. We don’t care about trends; we care about things that work or fail in actual projects. We are — and always have been — independent. 14+ years, and still ongoing.]]></description>
+    </link>
+</links>

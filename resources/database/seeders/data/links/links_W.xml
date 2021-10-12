@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>WinterCMS</title>
+        <image>cms.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>cms</tag>
+        </tags>
+        <url>https://wintercms.com</url>
+        <description><![CDATA[Winter CMS is a free, open-source content management system based on the Laravel PHP frameworks. Developers and agencies all around the world rely upon Winter CMS for its quick prototyping and development, safe and secure codebase and dedication to simplicity.]]></description>
+    </link>
+    <link>
+        <title>Wordpress</title>
+        <image>cms.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>cms</tag>
+        </tags>
+        <url>https://wordpress.org</url>
+        <description><![CDATA[WordPress is open source software you can use to create a beautiful website, blog, or app.]]></description>
+    </link>
+</links>

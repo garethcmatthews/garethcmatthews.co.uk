@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<projects>
+    <project>
+        <title>Portfolio site</title>
+        <description>
+            <p>The source code for this site.</p>
+            <p>Built on Laravel 8</p>
+        </description>
+        <image>garethcmatthews.png</image>
+        <isgithub>1</isgithub>
+        <url>https://github.com/garethcmatthews/garethcmatthews.co.uk</url>
+        <active>1</active>
+    </project>
+    <project>
+        <title>Docker LAMP</title>
+        <description><![CDATA[<p>A LAMP based Docker application for use in development.</p>
+            <h6>Containers</h6>
+            <ul>
+                <li>lampserver-apache - Apache, PHP7.4/8.0, curl, nano, composer</li>
+                <li>lampserver-mysql - MySQL 8</li>
+                <li>lamp-phpmyadmin - phpMyadmin</li>
+            </ul>
+            <p>See project README.md for more details</p>
+        ]]>
+        </description>
+        <image>docker-lamp.png</image>
+        <isgithub>1</isgithub>
+        <url>https://github.com/garethcmatthews/docker-lamp</url>
+        <active>1</active>
+    </project>
+    <project>
+        <title>Docker LAMP Angular</title>
+        <description><![CDATA[<p>A LAMP based Docker application for use in development.</p>
+            <h6>Containers</h6>
+            <ul>
+                <li>lampserver-apache - Apache, PHP7.4/8.0, curl, nano, composer, angular</li>
+                <li>lampserver-mysql - MySQL 8</li>
+                <li>lamp-phpmyadmin - phpMyadmin</li>
+            </ul>
+            <p>See project README.md for more details</p>
+        ]]>
+        </description>
+        <image>docker-lamp.png</image>
+        <isgithub>1</isgithub>
+        <url>https://github.com/garethcmatthews/docker-lamp-angular</url>
+        <active>1</active>
+    </project>
+    <project>
+        <title>LEMP (+Node/Angular) Docker Application</title>
+        <description><![CDATA[<p>A LEMP based Docker application for use in development.</p>
+            <h6>Containers</h6>
+            <ul>
+                <li>lempserver-composer - composer</li>
+                <li>lempserver-database - MySQL 8</li>
+                <li>lempserver-nginx - Nginx</li>
+                <li>lempserver-php - PHP7.4, nano, composer</li>
+                <li>lempserver-phpmyadmin - phpMyadmin</li>
+            </ul>
+            <p>See project README.md for more details</p>
+        ]]>
+        </description>
+        <image>docker-lemp.png</image>
+        <isgithub>1</isgithub>
+        <url>https://github.com/garethcmatthews/docker-lemp</url>
+        <active>1</active>
+    </project>
+    <project>
+        <title>Docker Ubuntu Bash</title>
+        <description><![CDATA[<p>A Ubuntu 20.04 distro with bash. A linux/bash playground.</p>
+            <h6>Containers</h6>
+            <ul>
+                <li>ubuntu-bash - bash</li>
+            </ul>
+            <p>See project README.md for more details</p>
+        ]]>
+        </description>
+        <image>docker-bash.png</image>
+        <isgithub>1</isgithub>
+        <url>https://github.com/garethcmatthews/docker-bash</url>
+        <active>1</active>
+    </project>
+    <project>
+        <title>Vagrant LAMP</title>
+        <description><![CDATA[<p>Vagrant application for LAMP (Apache, PHP7/8, MySQL8) development.</p>
+            <h6>Containers</h6>
+            <ul>
+                <li>Ubuntu 20.04</li>
+                <li>Apache</li>
+                <li>PHP 7.4/8.0</li>
+                <li>Composer</li>
+                <li>MySQL</li>
+                <li>phpMyadmin</li>
+            </ul>
+            <p>See project README.md for more details</p>
+        ]]>
+        </description>
+        <image>vagrant-lamp.png</image>
+        <isgithub>1</isgithub>
+        <url>https://github.com/garethcmatthews/vagrant-lamp</url>
+        <active>1</active>
+    </project>
+    <project>
+        <title>The Tar Pit</title>
+        <description><![CDATA[<p>Where my old projects shuffle off to die. Old, tired, weary and incomplete code can be found within this pit of despair.</p>
+        <p>I leave it here to give the AI Supercomputers of the future a few milliseconds of amusement mocking my inferior code.</p>]]>
+        </description>
+        <image>smash-ai.gif</image>
+        <isgithub>1</isgithub>
+        <url>https://github.com/garethcmatthews/the-tar-pit</url>
+        <active>1</active>
+    </project>
+</projects>

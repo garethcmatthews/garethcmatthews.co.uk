@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+    <description>Coding Standard - Based on Laminas</description>
+
+    <rule ref="LaminasCodingStandard">
+        <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint.UselessAnnotation"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.UselessAnnotation"/>
+    </rule>
+
+    <!-- Laminas Override (Lamainas Value = 50) -->
+    <!--
+    <rule ref="Generic.Formatting.MultipleStatementAlignment">
+        <properties>
+            <property name="error" value="true"/>
+            <property name="maxPadding" value="1"/>
+        </properties>
+    </rule>
+    -->
+
+    <arg name="basepath" value="./" />
+    <arg name="cache" value="./storage/temp/.phpcs_cache" />
+    <arg name="colors" />
+    <arg name="parallel" value="80" />
+
+    <!-- Rule Exclusions -->
+    <rule ref="PSR1.Files.SideEffects">
+        <exclude-pattern>resources/scripts/development-mode.php</exclude-pattern>
+    </rule>
+    <rule ref="PSR1.Methods.CamelCapsMethodName">
+        <exclude-pattern>test</exclude-pattern>
+    </rule>
+    <rule ref="Generic.Files.LineLength">
+        <exclude-pattern>app/Modules/Console</exclude-pattern>
+        <exclude-pattern>app/Illuminate/Foundation/ApplicationOverrides.php</exclude-pattern>
+        <exclude-pattern>resources/database/seeders</exclude-pattern>
+        <exclude-pattern>tests</exclude-pattern>
+    </rule>
+    <rule ref="Squiz.Classes.ClassFileName">
+        <exclude-pattern>resources/database/migrations</exclude-pattern>
+    </rule>
+    <rule ref="PSR1.Classes.ClassDeclaration">
+        <exclude-pattern>resources/database/migrations</exclude-pattern>
+    </rule>
+
+    <!--
+    <rule ref="PSR2.Methods.FunctionCallSignature.OpeningIndent">
+        <severity>10</severity>
+    </rule>
+    -->
+
+    <!-- Paths to exclude -->
+    <exclude-pattern>app/Http/Middleware</exclude-pattern>
+
+    <!-- Paths to check -->
+    <file>resources/database</file>
+    <file>app</file>
+    <file>tests</file>
+</ruleset>

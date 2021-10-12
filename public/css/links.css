@@ -1,0 +1,30 @@
+div.page img.icon {
+  height: 200px;
+  min-width: 350px;
+  border-radius: 3px;
+}
+
+div.row-dark {
+  background-color: #f8f9fa;
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+  div.page img.icon {
+    display: none;
+  }
+}
+nav > ul.pagination {
+  margin: 24px auto;
+}
+
+nav > ul.pagination a,
+span {
+  border: solid 1px #d7d7d7;
+  border-radius: 0.2rem;
+  color: #7d7d7d;
+  margin: 0 6px;
+}

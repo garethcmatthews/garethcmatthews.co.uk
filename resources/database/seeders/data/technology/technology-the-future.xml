@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<technologies>
+    <technology>
+        <title>GoLang</title>
+        <url>https://golang.org/</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Google Flutter</title>
+        <url>https://developers.google.com/learn/topics/flutter</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+</technologies>

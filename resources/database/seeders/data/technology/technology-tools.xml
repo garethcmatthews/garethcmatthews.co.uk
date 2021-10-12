@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<technologies>
+    <technology>
+        <title>Docker</title>
+        <url>https://www.docker.com</url>
+        <primary>2</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Visual Studio Code</title>
+        <url>https://code.visualstudio.com</url>
+        <primary>2</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>PHPStorm</title>
+        <url>https://www.jetbrains.com/phpstorm</url>
+        <primary>2</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Netbeans</title>
+        <url>https://www.phing.info</url>
+        <primary>2</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Zend studio</title>
+        <url>https://www.zend.com/products/zend-studio</url>
+        <primary>2</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Oracle Virtualbox</title>
+        <url>https://www.virtualbox.org</url>
+        <primary>2</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>PHING</title>
+        <url>https://www.phing.info</url>
+        <primary>2</primary>
+        <active>1</active>
+    </technology>
+</technologies>

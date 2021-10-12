@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<technologies>
+    <!-- Primary Skills -->
+    <technology>
+        <title>PHP 7.4</title>
+        <url>https://www.php.net</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>HTML 5</title>
+        <url>https://developer.mozilla.org/en-US/docs/Web/HTML/Element</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>CSS3</title>
+        <url>https://developer.mozilla.org/en-US/docs/Web/CSS</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Twitter Bootstrap</title>
+        <url>https://getbootstrap.com</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>SASS</title>
+        <url>https://sass-lang.com/</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Javascript</title>
+        <url>https://developer.mozilla.org/en-US/docs/Web/javascript</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Jquery</title>
+        <url>https://jquery.com</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>MySQL</title>
+        <url>https://www.mysql.com</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Doctrine</title>
+        <url>https://www.doctrine-project.org</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>XML/XLST</title>
+        <url>https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Apache</title>
+        <url>http://www.apache.org</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Bash Scripting</title>
+        <url>https://www.shellscript.sh/quickref.html</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <!-- Secondary Skills -->
+    <technology>
+        <title>NodeJS</title>
+        <url>https://nodejs.org/en</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>ReactJS</title>
+        <url>https://reactjs.org</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>AngularJS</title>
+        <url>https://angularjs.org</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>TypeScript</title>
+        <url>https://www.typescriptlang.org</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Jquery UI</title>
+        <url>https://jqueryui.com</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Jquery Mobile</title>
+        <url>https://jquerymobile.com</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Linux server configuration</title>
+        <url>https://ubuntu.com</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>MSSQL</title>
+        <url>https://www.microsoft.com/en-gb/sql-server/sql-server-2019</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>C# Net Core MVC</title>
+        <url>https://docs.microsoft.com/en-gb/aspnet/core/?view=aspnetcore-5.0</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+</technologies>

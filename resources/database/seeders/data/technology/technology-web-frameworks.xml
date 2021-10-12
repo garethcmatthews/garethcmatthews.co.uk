@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<technologies>
+    <!-- Primary Skills -->
+    <technology>
+        <title>Laravel</title>
+        <url>https://laravel.com</url>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Laminas/Mezzio</title>
+        <url>https://getlaminas.org</url>
+        <active>1</active>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Phalcon</title>
+        <url>https://docs.phalcon.io/4.0/en/introduction</url>
+        <active>1</active>
+        <primary>1</primary>
+        <active>1</active>
+    </technology>
+    <!-- Secondary Skills -->
+    <technology>
+        <title>Zend framework</title>
+        <url>https://framework.zend.com</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Wordpress</title>
+        <url>https://wordpress.com</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Drupal</title>
+        <url>https://www.drupal.org</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Magento</title>
+        <url>https://magento.com</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Codeigniter</title>
+        <url>https://codeigniter.com</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+    <technology>
+        <title>Kohana</title>
+        <url>http://kohanaframework.org</url>
+        <primary>0</primary>
+        <active>1</active>
+    </technology>
+</technologies>

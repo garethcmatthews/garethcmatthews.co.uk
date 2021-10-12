@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<menus>
+    <menu>
+        <id>1</id>
+        <name>main-menu</name>
+        <active>1</active>
+    </menu>
+</menus>

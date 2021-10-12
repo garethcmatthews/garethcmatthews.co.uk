@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<types>
+    <type>
+        <tag>web-development</tag>
+        <description>Web Development</description>
+        <active>1</active>
+    </type>
+    <type>
+        <tag>web-frameworks</tag>
+        <description>Frameworks</description>
+        <active>1</active>
+    </type>
+    <type>
+        <tag>tools-api</tag>
+        <description>Third Party Tools/Api</description>
+        <active>1</active>
+    </type>
+    <type>
+        <tag>tools</tag>
+        <description>Software Tools</description>
+        <active>1</active>
+    </type>
+    <type>
+        <tag>mobile</tag>
+        <description>Mobile Development</description>
+        <active>1</active>
+    </type>
+    <type>
+        <tag>source-control</tag>
+        <description>Source Control/Quality/Testing</description>
+        <active>1</active>
+    </type>
+    <type>
+        <tag>project-management</tag>
+        <description>Project/Process Management</description>
+        <active>1</active>
+    </type>
+    <type>
+        <tag>the-future</tag>
+        <description>The Future</description>
+        <active>1</active>
+    </type>
+</types>

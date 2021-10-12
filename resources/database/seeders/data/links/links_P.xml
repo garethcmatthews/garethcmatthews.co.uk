@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>PHP Benchmarks</title>
+        <image>tools.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>tools</tag>
+        </tags>
+        <url>http://www.phpbenchmarks.com/en</url>
+        <description><![CDATA[PHP Benchmarks]]></description>
+    </link>
+    <link>
+        <title>PHP Code Beautifier and Fixer</title>
+        <image>codequality.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>codequality</tag>
+            <tag>tools</tag>
+        </tags>
+        <url>https://phpqa.io/projects/phpcbf.html</url>
+        <description><![CDATA[PHP Code Beautifier and Fixer is part of a set of two PHP scripts; the main phpcs script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second phpcbf script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.]]></description>
+    </link>
+    <link>
+        <title>PHP Fast CGI</title>
+        <image>php.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>tools</tag>
+        </tags>
+        <url>https://fastcgi-archives.github.io/PHP_FastCGI.html</url>
+        <description><![CDATA[This is the PHP FastCGI usages.]]></description>
+    </link>
+    <link>
+        <title>PHP The Right Way</title>
+        <image>php.png</image>
+        <tags>
+            <tag>php</tag>
+        </tags>
+        <url>https://phptherightway.com</url>
+        <description><![CDATA[There’s a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and insecure code. PHP: The Right Way is an easy-to-read, quick reference for PHP popular coding standards, links to authoritative tutorials around the Web and what the contributors consider to be best practices at the present time.]]></description>
+    </link>
+    <link>
+        <title>PHP Watch</title>
+        <image>news.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>news</tag>
+        </tags>
+        <url>https://php.watch</url>
+        <description><![CDATA[All the latest PHP News]]></description>
+    </link>
+    <link>
+        <title>PixiJS</title>
+        <image>animation.png</image>
+        <tags>
+            <tag>javascript</tag>
+            <tag>animation</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>https://www.pixijs.com</url>
+        <description><![CDATA[The HTML5 Creation Engine
+        Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.]]></description>
+    </link>
+    <link>
+        <title>POP PHP frameworks</title>
+        <image>frameworks.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>https://www.popphp.org</url>
+        <description><![CDATA[The Pop PHP frameworks is a lightweight, yet robust PHP frameworks that can be used for rapid application development. The frameworks itself has a base set of core components as well as numerous other additional components to facilitate many of the common features needed for a PHP application.]]></description>
+    </link>
+    <link>
+        <title>Pre</title>
+        <image>tools.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>tools</tag>
+        </tags>
+        <url>https://preprocess.io</url>
+        <description><![CDATA[Pre is a preprocessing tool for PHP. Its like Babel, except easier to set up and write your own plugins for. It compiles new syntax to work in new and old versions of PHP.]]></description>
+    </link>
+</links>

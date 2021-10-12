@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<links>
+    <link>
+        <title>Laminas Project</title>
+        <image>frameworks.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>https://getlaminas.org</url>
+        <description><![CDATA[Laminas Project, the enterprise-ready PHP frameworks and components. A community-supported, open source continuation of Zend frameworks.]]></description>
+    </link>
+    <link>
+        <title>Laminas Starter Kit</title>
+        <image>frameworks.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>http://laminasstarterkit.omelak.com</url>
+        <description><![CDATA[Generate controllers, models, views, rowsets, login registration, administration panel and RBAC mechanisms in seconds! Use our on-line tools or get your copy from GitHub.]]></description>
+    </link>
+    <link>
+        <title>Laravel News</title>
+        <image>news.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>news</tag>
+        </tags>
+        <url>https://laravel-news.com</url>
+        <description><![CDATA[The latest in Laravel News]]></description>
+    </link>
+    <link>
+        <title>Laravel Zero</title>
+        <image>frameworks.png</image>
+        <tags>
+            <tag>php</tag>
+            <tag>frameworks</tag>
+        </tags>
+        <url>https://laravel-zero.com</url>
+        <description><![CDATA[Micro-cms for console applications]]></description>
+    </link>
+    <link>
+        <title>Learn Linux TV</title>
+        <image>linux.png</image>
+        <tags>
+            <tag>linux</tag>
+            <tag>news</tag>
+        </tags>
+        <url>https://www.learnlinux.tv</url>
+        <description><![CDATA[Learn Linux TV is a popular YouTube channel that aims to provide Linux-related content, focusing on learning. The channel features Linux tutorials, distribution reviews, complete guides, and more. The content aims to get you up and running quickly, and to teach you everything you need to know in order to become proficient with the Linux platform, whether that be on the server or on your computer.]]></description>
+    </link>
+</links>

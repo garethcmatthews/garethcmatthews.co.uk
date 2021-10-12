@@ -1,0 +1,59 @@
+/* Main Template Styles */
+$page-width: 1200px;
+$page-left-padding: 180px;
+
+$page-content-horizontal-padding: 32px;
+$page-content-horizontal-padding-small: 24px;
+
+body {
+  background: linear-gradient(180deg, #1cb5e0 0%, #000851 100%);
+  height: 100vh;
+}
+
+.layout-wrapper {
+  display: flex;
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+}
+
+.layout-row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.page-wrapper {
+  background-color: white;
+  max-width: $page-width;
+  padding: 0;
+  padding-left: $page-left-padding;
+}
+
+.page {
+  padding: 0;
+  margin-bottom:48px;
+}
+
+.page-content {
+  padding: 0;
+  padding-left: $page-content-horizontal-padding;
+  padding-right: $page-content-horizontal-padding;
+}
+
+@media (max-width: 768px) {
+  .layout-row {
+    margin-left: 0;
+  }
+
+  .page-wrapper {
+    padding: 0;
+    width: 100%;
+  }
+
+  .page-content {
+    padding-left: $page-content-horizontal-padding-small;
+    padding-right: $page-content-horizontal-padding-small;
+    width: 100%;
+  }
+}

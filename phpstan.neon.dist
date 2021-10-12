@@ -1,0 +1,19 @@
+parameters:
+    level: 5
+    excludePaths:
+        - app/Bootstrap/app.php
+        - app/Http/Middleware
+        - app/Modules/Console
+        - resources/database/seeders/data
+        - tests
+    paths:
+        - resources/database/seeders
+        - app/Http/Controllers
+        - app/Modules
+    ignoreErrors:
+        - '#Call to an undefined static method [a-zA-Z0-9\\_]+::create#'
+        - '#Call to method lastInsertId\(\) on an unknown class Doctrine\\DBAL\\Driver\\PDOConnection.#'
+        - '#Method [a-zA-Z0-9\\_]+::render\(\) should return Illuminate\\View\\View but returns Illuminate\\Contracts\\View\\Factory|Illuminate\\Contracts\\View\\View#'
+        - '#should return Illuminate\\Pagination\\LengthAwarePaginator but returns Illuminate\\Contracts\\Pagination\\LengthAwarePaginator#'
+        - '#should return Illuminate\\Database\\Eloquent\\Collection but returns Illuminate\\Support\\Collection#'
+        - '#should return Illuminate\\Database\\Eloquent\\Relations\\HasMany but returns Illuminate\\Database\\Query\\Builder#'

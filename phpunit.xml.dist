@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true" cacheResultFile="storage/temp/.phpunit.result.cache">
+
+    <testsuites>
+        <testsuite name="Contact">
+            <directory suffix="Test.php">tests/Contact</directory>
+        </testsuite>
+        <testsuite name="Links">
+            <directory suffix="Test.php">tests/Links</directory>
+        </testsuite>
+        <testsuite name="Projects">
+            <directory suffix="Test.php">tests/Projects</directory>
+        </testsuite>
+        <testsuite name="SiteMenus">
+            <directory suffix="Test.php">tests/SiteMenus</directory>
+        </testsuite>
+        <testsuite name="Technology">
+            <directory suffix="Test.php">tests/Technology</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">./app</directory>
+        </include>
+    </coverage>
+    <php>
+        <server name="APP_ENV" value="testing" force="true"/>
+        <server name="DB_CONNECTION" value="mysql_testing" force="true"/>
+        <server name="DB_DATABASE" value="garethcmatthews_testing" force="true"/>
+        <server name="CACHE_DRIVER" value="array" force="true"/>
+        <server name="SESSION_DRIVER" value="array" force="true"/>
+        <server name="QUEUE_DRIVER" value="sync" force="true"/>
+        <server name="MAIL_DRIVER" value="array" force="true"/>
+    </php>
+</phpunit>
