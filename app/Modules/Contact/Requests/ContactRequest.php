@@ -13,7 +13,7 @@ class ContactRequest extends FormRequest
             'company'  => 'nullable|max:64|regex:/^[0-9a-zA-z ]+$/',
             'email'    => 'required|email|max:254',
             'reason'   => 'required|max:254|regex:/^[0-9a-zA-z,. ]+$/',
-            'message'  => 'required|between:10,2048|regex:/^[0-9a-zA-z,. ]+$/',
+            'message'  => 'required|between:10,2048|regex:/^[0-9a-zA-z?,.\r\n ]+$/',
         ];
     }
 
