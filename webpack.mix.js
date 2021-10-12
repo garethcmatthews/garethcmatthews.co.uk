@@ -9,11 +9,11 @@ switch (process.env.npm_config_build) {
         buildDevelopmentJs()
         break;
     case "production-css":
-        buildProductionCss(true)
+        buildProductionCss(false)
         break;
-        case "production-js":
-            buildProductionJs()
-            break;
+    case "production-js":
+        buildProductionJs()
+        break;
     default:
         console.log("ERROR - BAD CONFIGURATION");
         break;
