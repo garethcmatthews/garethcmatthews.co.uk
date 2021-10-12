@@ -41,13 +41,21 @@ So I no longer need to concern myself with this I added cache clearing to the cr
 ## Docker
 Setup the .env file (copy over .env.example) and run 'docker compose up -d'
 
-Run the database migrations (initial build)
+*Create the storage folder and update composer*  
+To speed docker up the storage and vendor folders are now local to the box
 
 1. docker exec -it lampserver-php /bin/bash  
-2. php artisan application:menu
-3. Select 1 "Application Settings"
-4. Select 6 "Create Application"
-5. Go to http://localhost:8080
+2. composer run create-storage-folders
+3. chmod -R 777 storage (THIS LOCAL DEV BOX ONLY!! - NEVER ON PRODUCTION)
+4. composer update
+
+*Run the database migrations (initial build)*
+
+1. php artisan application:menu
+2. Select 1 "Application Settings"
+3. Select 6 "Create Application"
+4. Go to http://localhost:8080
+
 
 ### URL's
 * **PHP Application** - http://localhost:8080
