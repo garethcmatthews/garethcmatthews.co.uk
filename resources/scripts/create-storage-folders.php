@@ -23,8 +23,15 @@ chdir(__DIR__ . '/../../');
 
 $basePath = getcwd();
 if (basename($basePath) !== PROJECT_NAME) {
-    echo "\n*** ERROR: Incorrect project base path - Terminated ***\n\n";
-    exit;
+    echo "\n*** ERROR: Basepath appears to be incorrect ***";
+    echo "\n*** BASEPATH: $basePath ***";
+    echo "\n\nAre you sure you want to create the storage folder here? Type 'YES' to continue: ";
+    $handle = fopen ("php://stdin","r");
+    $line = fgets($handle);
+    if(trim($line) != 'YES'){
+        echo "ABORTED\n";
+        exit;
+    }
 }
 
 $folders = [
