@@ -41,6 +41,8 @@ services:
             - 8080:80
         volumes:
             - ./:/var/www/html
+            - /var/www/html/storage
+            - /var/www/html/vendor
     phpmyadmin:
         # DOCKER HUB: https://hub.docker.com/_/phpmyadmin
         container_name: ${COMPOSE_PROJECT_NAME}-phpmyadmin
