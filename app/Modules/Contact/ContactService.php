@@ -44,10 +44,10 @@ class ContactService
 
         $this->repository->storeContact($input);
         if ($this->config->get('app.env') === "production") {
-            $to      = 'g@garethcmatthews.co.uk';
+            $to      = 'MOVETOCONFIG@CONFIG.com';
             $subject = $input['reason'];
             $message = $input['message'];
-            $headers = 'From: ' . $input['email'] . "\r\n" . 'Reply-To: g@garethcmatthews.co.uk';
+            $headers = 'From: ' . $input['email'] . "\r\n" . 'Reply-To: ' . $input['email'];
             mail($to, $subject, $message, $headers);
         }
     }
