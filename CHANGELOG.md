@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.3.1
+- Updated readme
+
+
 ## 1.3
 - Docker Fixes (worked on my machine)
   - Fixed docker issues
