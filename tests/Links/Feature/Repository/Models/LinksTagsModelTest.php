@@ -30,7 +30,7 @@ class LinksTagsModelTest extends TestCase
 
         $columns = $model->getConnection()->getSchemaBuilder()->getColumnListing($this->tablename);
 
-        $this->assertEquals($expected, $columns);
+        $this->assertEqualsCanonicalizing($expected, $columns);
     }
 
     /**

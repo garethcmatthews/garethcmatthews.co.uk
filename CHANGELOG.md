@@ -2,7 +2,7 @@
 
 ## 1.3.2
 - Docker updates and fixes
-
+- Test fixes
 
 ## 1.3.1
 - Updated readme

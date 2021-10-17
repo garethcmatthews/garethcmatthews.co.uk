@@ -28,7 +28,7 @@ class TechnologyModelTest extends TestCase
         $expected = ['id', 'description', 'tag', 'active', 'created_at', 'updated_at'];
         $model    = new TechnologyModel();
         $columns  = $model->getConnection()->getSchemaBuilder()->getColumnListing($this->tablename);
-        $this->assertEquals($expected, $columns);
+        $this->assertEqualsCanonicalizing($expected, $columns);
     }
 
     /**

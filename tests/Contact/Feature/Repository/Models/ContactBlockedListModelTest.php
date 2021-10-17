@@ -29,7 +29,7 @@ class ContactBlockedListModelTest extends TestCase
         $model = new ContactBlockedListModel();
 
         $columns = $model->getConnection()->getSchemaBuilder()->getColumnListing($this->tablename);
-        $this->assertEquals($expected, $columns);
+        $this->assertEqualsCanonicalizing($expected, $columns);
     }
 
     /**

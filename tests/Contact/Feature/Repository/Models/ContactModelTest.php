@@ -29,7 +29,7 @@ class ContactModelTest extends TestCase
         $model = new ContactModel();
 
         $columns = $model->getConnection()->getSchemaBuilder()->getColumnListing($this->tablename);
-        $this->assertEquals($expected, $columns);
+        $this->assertEqualsCanonicalizing($expected, $columns);
     }
 
     /**

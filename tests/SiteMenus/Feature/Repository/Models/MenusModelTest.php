@@ -29,7 +29,7 @@ class MenusModelTest extends TestCase
         $model    = new MenusModel();
 
         $columns = $model->getConnection()->getSchemaBuilder()->getColumnListing($this->tablename);
-        $this->assertEquals($expected, $columns);
+        $this->assertEqualsCanonicalizing($expected, $columns);
     }
 
     /**
