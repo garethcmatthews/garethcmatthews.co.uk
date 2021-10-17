@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# Setup .env file
-if [ -f ".env" ]; then
-echo ".env file exists - skipping\n"
-else
-    cp .env.example .env
-fi
-
 # Setup Storage Folders
 composer run create-storage-folders
 chmod -R 777 storage

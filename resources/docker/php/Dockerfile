@@ -13,8 +13,9 @@ RUN a2enmod rewrite
 # PHP: https://github.com/mlocati/docker-php-extension-installer
 RUN apt-get install --no-install-recommends --yes libzip-dev && \
     apt-get install --no-install-recommends --yes unzip && \
-    docker-php-ext-install opcache && \
     docker-php-ext-install mysqli && \
+    docker-php-ext-install opcache && \
+    docker-php-ext-install pdo_mysql && \
     docker-php-ext-install zip
 
 RUN cp /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini && \
