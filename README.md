@@ -45,8 +45,14 @@ So I no longer need to concern myself with this I added cache clearing to the cr
 
 1. Setup the .env file (copy over .env.example) and run 'docker compose up -d'
 2. docker exec -it lampserver-php /bin/bash  
-3. Run 'resources/docker/php/docker-init.sh'
+3. Run 'resources/docker/php/docker-init.sh' **NOTE-1**
 4. After script has completed Go to http://localhost:8080
+
+**NOTE-1 Windows users**  
+If you clone this repository on step 3 you may get the error  
+**"/bin/bash^M: bad interpreter: No such file or directory"**  
+This is because git has converted the script line endings to CRLF. Simply update 'resources/docker/php/docker-init.sh' to LF and rerun.
+
 
 ### URL's
 * **PHP Application** - http://localhost:8080
