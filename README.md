@@ -44,9 +44,10 @@ So I no longer need to concern myself with this I added cache clearing to the cr
 ## Docker - Initial setup
 Setup the .env file (copy over .env.example) and run 'docker compose up -d'
 
-1. docker exec -it lampserver-php /bin/bash  
-2. Run 'resources/docker/php/docker-init.sh'
-3. After script has completed Go to http://localhost:8080
+1. Setup the .env file (copy over .env.example) and run 'docker compose up -d'
+2. docker exec -it lampserver-php /bin/bash  
+3. Run 'resources/docker/php/docker-init.sh'
+4. After script has completed Go to http://localhost:8080
 
 ### URL's
 * **PHP Application** - http://localhost:8080
