@@ -20,6 +20,9 @@ There are a few changes to the typical laravel skeleton
 ### Storage folders
 Run 'composer create-storage-folders' to create any missing storage folders.
 
+To speed docker up the storage and vendor folders are now local to the box.  
+On windows you may want to set the vendor folder up locally as well for code completion.
+
 ### Development Mode
 Disable development mode 'composer run development-disable'  
 Enable development mode 'composer run development-enable'  
@@ -38,24 +41,11 @@ If you have optimised laravel and created caches this can cause issues in testin
 
 So I no longer need to concern myself with this I added cache clearing to the create application trait - see Tests\CreateApplicationTrait
 
-## Docker
-Setup the .env file (copy over .env.example) and run 'docker compose up -d'
-
-*Create the storage folder and update composer*  
-To speed docker up the storage and vendor folders are now local to the box
+## Docker - Initial setup
 
 1. docker exec -it lampserver-php /bin/bash  
-2. composer run create-storage-folders
-3. chmod -R 777 storage (THIS LOCAL DEV BOX ONLY!! - NEVER ON PRODUCTION)
-4. composer update
-
-*Run the database migrations (initial build)*
-
-1. php artisan application:menu
-2. Select 1 "Application Settings"
-3. Select 6 "Create Application"
-4. Go to http://localhost:8080
-
+2. Run 'resources/docker/php/docker-init.sh'
+3. After script has completed Go to http://localhost:8080
 
 ### URL's
 * **PHP Application** - http://localhost:8080
