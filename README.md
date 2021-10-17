@@ -18,7 +18,7 @@ There are a few changes to the typical laravel skeleton
 ## Scripts/Artisan Console
 
 ### Storage folders
-Run 'composer create-storage-folders' to create any missing storage folders.
+Run 'composer run create-storage-folders' to create any missing storage folders.
 
 To speed docker up the storage and vendor folders are now local to the box.  
 On windows you may want to set the vendor folder up locally as well for code completion.
