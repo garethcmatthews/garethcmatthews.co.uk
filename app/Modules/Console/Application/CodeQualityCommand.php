@@ -71,31 +71,31 @@ class CodeQualityCommand extends Command
             1 => [
                 'title'    => 'Run CS-Checker',
                 'subtitle' => 'Running CS-Checker',
-                'command'  => "cd $vendorBinFolder && phpcs -s",
+                'command'  => "$vendorBinFolder/phpcs -s",
                 'error'    => "\nNo Errors found\n",
             ],
             2 => [
                 'title'    => 'Run CS-Fixer',
                 'subtitle' => 'Running CS-Fixer',
-                'command'  => "cd $vendorBinFolder && phpcbf",
+                'command'  => "$vendorBinFolder/phpcbf",
                 'error'    => '',
             ],
             3 => [
                 'title'    => 'Run PHPStan',
                 'subtitle' => 'Running PHP Static Analyser',
-                'command'  => "cd $vendorBinFolder && phpstan analyse -c $basePath/phpstan.neon.dist",
+                'command'  => "$vendorBinFolder/phpstan analyse -c $basePath/phpstan.neon.dist --memory-limit 1G",
                 'error'    => '',
             ],
             4 => [
                 'title'    => 'Run Tests',
                 'subtitle' => 'Running PHPUnit',
-                'command'  => "cd $vendorBinFolder && phpunit -c $basePath/phpunit.xml.dist",
+                'command'  => "$vendorBinFolder/phpunit -c $basePath/phpunit.xml.dist",
                 'error'    => '',
             ],
             5 => [
                 'title'    => 'Run Tests and generate coverage report',
                 'subtitle' => 'Running PHPUnit Code Coverage',
-                'command'  => "cd $vendorBinFolder && phpunit -c $basePath/phpunit.xml.dist --coverage-html $storagePath/temp/tests-coverage-report",
+                'command'  => "$vendorBinFolder/phpunit -c $basePath/phpunit.xml.dist --coverage-html $storagePath/temp/tests-coverage-report",
                 'error'    => '',
             ],
         ];

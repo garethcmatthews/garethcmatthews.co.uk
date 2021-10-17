@@ -7,6 +7,9 @@ chmod -R 777 storage
 # Update Composer
 composer update
 
+# Update Npm
+npm install
+
 # Database
 php artisan migrate:refresh --database=mysql
 for FILE in ./resources/database/seeders/*.*
