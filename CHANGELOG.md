@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.3
+- Docker Fixes (worked on my machine)
+  - Fixed docker issues
+  - Updated readme file
+  - Added a script to simplify installation and eventually fully automate
+
 ## 1.2
 - Minor fixes
   - Contact - Added missing message contact name

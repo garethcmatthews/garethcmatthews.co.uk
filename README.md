@@ -42,7 +42,6 @@ If you have optimised laravel and created caches this can cause issues in testin
 So I no longer need to concern myself with this I added cache clearing to the create application trait - see Tests\CreateApplicationTrait
 
 ## Docker - Initial setup
-Setup the .env file (copy over .env.example) and run 'docker compose up -d'
 
 1. Setup the .env file (copy over .env.example) and run 'docker compose up -d'
 2. docker exec -it lampserver-php /bin/bash  
